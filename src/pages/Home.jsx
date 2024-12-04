@@ -10,7 +10,7 @@ const Home = ({ user }) => {
         </>
       ) : (
         <div className="flex justify-center items-center h-screen text-xl">
-          <p>Please log in to see your email.</p>
+          <p>Please log in with Google </p>
         </div>
       )}
     </div>

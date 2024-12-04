@@ -13,7 +13,7 @@ const Navbar = ({ user, onLogin, onLogout }) => {
               Login
             </button>
           ) : (
-            <button onClick={onLogout} className="bg-red-600 px-4  py-2 rounded-md hover:bg-red-700">
+            <button onClick={onLogout} className="bg-indigo-600 px-4  py-2 rounded-md hover:bg-red-700">
               Logout
             </button>
           )}

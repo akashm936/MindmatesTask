@@ -1,5 +1,3 @@
-// src/components/LoginForm.jsx
-
 import React, { useState } from 'react';
 import { signInWithEmail } from '../firebase/Firebase';
 import { toast } from 'react-toastify';
@@ -55,10 +53,9 @@ const LoginForm = ({ onClose, onSuccess }) => {
         </button>
       </form>
 
-      {/* Google Sign In Button */}
+     
       <GoogleLogin onSuccess={onSuccess} />
 
-      {/* Close Button */}
       <button onClick={onClose} className="mt-4 w-full text-red-600 hover:text-red-800">
         Close
       </button>
